@@ -15,7 +15,7 @@
 |   |-- .font-spider              # 自动生成目录，css所使用字体备份
 |-- html                          # html
 |   |-- index.html                # html文件，可以随意新增*.html
-|-- node_modules				          # 运行依赖
+|-- node_modules                  # 运行依赖
 |-- package.json                  # 运行配置
 |-- README.md                     # 项目说明
 ```
