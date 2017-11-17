@@ -1,0 +1,33 @@
+/*声明 WebFont*/
+@font-face {
+  font-family: 'inqiu';
+  src: url('../font/MFYueHei_Noncommercial-Regular.eot');
+  src:
+    url('../font/MFYueHei_Noncommercial-Regular.eot?#font-spider') format('embedded-opentype'),
+    url('../font/MFYueHei_Noncommercial-Regular.woff') format('woff'),
+    url('../font/MFYueHei_Noncommercial-Regular.ttf') format('truetype'),
+    url('../font/MFYueHei_Noncommercial-Regular.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'inqiu2';
+  src: url('../font/MFQingShu_Noncommercial-Regular.eot');
+  src:
+    url('../font/MFQingShu_Noncommercial-Regular.eot?#font-spider') format('embedded-opentype'),
+    url('../font/MFQingShu_Noncommercial-Regular.woff') format('woff'),
+    url('../font/MFQingShu_Noncommercial-Regular.ttf') format('truetype'),
+    url('../font/MFQingShu_Noncommercial-Regular.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/*使用选择器指定字体*/
+.font1 {
+    font-family: 'inqiu';
+}
+
+.font2 {
+    font-family: 'inqiu2';
+}
